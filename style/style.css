@@ -277,6 +277,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 120px 120px 84px 120px;
+    margin: 0;
 }
 
 .footer-social-container {
