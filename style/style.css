@@ -65,7 +65,7 @@ section#think-more-clearly {
 
 
 h1.second-brain-header,
-.thik-more-clearly-header {
+.think-more-clearly-header {
     margin-bottom: 16px;
 }
 
@@ -235,24 +235,24 @@ h1.second-brain-header,
 
 /* secound brain style end  */
 
-/* thik more clearly section  */
+/* think more clearly section  */
 
-.thik-more-clearly-container {
+.think-more-clearly-container {
     background: #F7F6F2;
     border-radius: 12px;
 }
 
-.thik-more-clearly-child-container {
+.think-more-clearly-child-container {
     text-align: center;
     padding: 80px 40px;
 
 }
 
-h2.thik-more-clearly-header {
+h2.think-more-clearly-header {
     font-size: 40px;
 }
 
-p.thik-more-clearly-description-main {
+p.think-more-clearly-description-main {
     line-height: 24px;
     margin-bottom: 24px;
 }
@@ -261,7 +261,7 @@ button.get-early-access-button {
     margin-bottom: 16px;
 }
 
-/* thik more clearly section end  */
+/* think more clearly section end  */
 
 
 /* footer style  */
