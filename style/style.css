@@ -265,6 +265,8 @@ button.get-early-access-button {
 /* thik more clearly section end  */
 
 
+/* footer style  */
+
 /* footer social section style  */
 footer {
     background-color: #001931;
@@ -312,11 +314,18 @@ ul.footer-social-icon-ul li a {
 
 /* footer social style end  */
 
-.footer-copy-right-container{
+
+/* footer copy right style  */
+.footer-copy-right-container {
     color: #FAFAFA;
     text-align: center;
     padding-bottom: 30px;
 }
-.footer-copy-right-container p{
+
+.footer-copy-right-container p {
     margin: 30px;
 }
+
+/* footer copy right style end  */
+
+/* footer style end  */
