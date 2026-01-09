@@ -120,12 +120,11 @@ h1.second-brain-header,
 }
 
 .hero-details-container {
-    max-width: 770px;
+    max-width: 77%;
     margin: 0 auto;
     color: #fff;
-    padding: 165.5px 295px 179.5px;
+    padding: 11.7917% 10.5833% 14.9583%;
 }
-
 .hero-heading {
     font-weight: bold;
     font-size: 72px;
