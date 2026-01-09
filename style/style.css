@@ -14,11 +14,11 @@ body {
 
 .share-btn,
 .works-btn:hover {
-    padding: 12.5px 16px;
+    padding: 16px;
     color: white;
-    background-color: #30b868;
+    background-color: #469165;
     border-radius: 4px;
-    border: solid #30b868 2px;
+    border: solid #469165 2px;
     font-weight: 600;
     transition: background-color 0.5s ease, color 0.5s ease;
     font-size: 16px;
@@ -27,8 +27,8 @@ body {
 
 .share-btn:hover {
     background-color: transparent;
-    border: solid #30b868 2px;
-    color: #30b868;
+    border: solid #469165 2px;
+    color: #469165;
 }
 
 .container {
@@ -42,11 +42,23 @@ body {
     line-height: 20px;
 }
 
-.structure-header,.second-brain-header {
+.structure-header,
+.second-brain-header {
     font-size: 48px;
     font-weight: bold;
     line-height: 58px;
     text-transform: capitalize;
+}
+
+section#structure,
+section#second-brain-section,
+section#think-more-clearly {
+    margin-bottom: 120px;
+}
+
+
+h1.second-brain-header,.thik-more-clearly-header{
+    margin-bottom: 16px;
 }
 
 /* Shear style end */
@@ -86,6 +98,9 @@ main {
     font-weight: 500;
 }
 
+.header-button button {
+    padding: 12.5px 16px;
+}
 /* nav style end  */
 
 /* hero style  */
@@ -113,7 +128,7 @@ main {
 }
 
 .hero-heading span {
-    color: #30b868;
+    color: #469165;
 }
 
 .hero-section-description {
@@ -141,12 +156,11 @@ main {
 
 }
 
+
 /* header style end  */
 
 /* structure style  */
-section#structure {
-    margin-bottom: 120px;
-}
+
 
 .structure-header-container {
     text-align: center;
@@ -185,32 +199,57 @@ section#structure {
     font-weight: 600;
     margin-bottom: 16px;
 }
+
 /* structure style end  */
 
 
 /* second brain style  */
 
-.second-brain-container{
+.second-brain-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 60px;
 }
-h1.second-brain-header {
-    margin-bottom: 16px;
-}
+
+
 
 .second-brain-description {
     margin-bottom: 40px;
 }
-.second-brain-ul li{
+
+.second-brain-ul li {
     margin-bottom: 16px;
     list-style: none;
+    color: #001931;
 }
 
-.second-brain-ul li i{
-    color: #30b868;
+.second-brain-ul li i {
+    color: #469165;
 }
 
 
 /* secound brain style end  */
+
+/* thik more clearly section  */
+
+.thik-more-clearly-container{
+    background: #F7F6F2;
+    border-radius: 12px;
+}
+.thik-more-clearly-child-container{
+    text-align: center;
+    padding: 80px 40px;
+
+}
+h2.thik-more-clearly-header {
+    font-size: 40px;
+}
+p.thik-more-clearly-description-main{
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+button.get-early-access-button {
+    margin-bottom: 16px;
+}
