@@ -15,29 +15,30 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
-<style>
-    html {
-        scroll-behavior: smooth;
-    }
-</style>
+
 
 <body>
     <!-- header section  -->
-    <header>
+    <header id="header">
         <!-- nav section  -->
         <section id="nav-section" class="container">
             <nav class="header-nav">
                 <div class="nav-container">
                     <div class="header-icon">
-                        <img class="header-nav-img" src="./assets/logo-navbar.png" alt="">
+                        <a href="#header"><img class="header-nav-img" src="./assets/logo-navbar.png" alt=""></a>
                     </div>
                     <div class="header-menu">
                         <ul>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">How It Works</a></li>
-                            <li><a href="">Why It's Different</a></li>
+                            <li><a href="#second-brain-section">Features</a></li>
+                            <li><a href="#think-more-clearly">How It Works</a></li>
+                            <li><a href="#structure">Why It's Different</a></li>
                         </ul>
                     </div>
                     <div class="header-button">
@@ -155,7 +156,7 @@
         <section id="footer-section">
             <div class="footer-container container">
                 <div class="footer-img-container">
-                    <img src="./assets/logo-footer.png" alt="">
+                    <a href="#header"><img src="./assets/logo-footer.png" alt=""></a>
                 </div>
                 <div class="footer-social-container">
                     <h3 class="footer-social-header">Social Links</h3>
