@@ -125,6 +125,24 @@ h1.second-brain-header,
     color: #fff;
     padding: 11.7917% 10.5833% 14.9583%;
 }
+button.early-access-btn {
+    padding: 8px 12px;
+    font-weight: 500;
+    border: solid 1px #469165;
+    border-radius: 40px;
+    color: #469165;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+button.early-access-btn:hover {
+    background-color: #469165;
+    color: white;
+}
+button.early-access-btn i {
+    margin-right: 6px;
+}
+
+
 .hero-heading {
     font-weight: bold;
     font-size: 72px;
