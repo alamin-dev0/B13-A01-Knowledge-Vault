@@ -12,7 +12,8 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.share-btn,.works-btn:hover {
+.share-btn,
+.works-btn:hover {
     padding: 12.5px 16px;
     color: white;
     background-color: #30b868;
@@ -21,6 +22,7 @@ body {
     font-weight: 600;
     transition: background-color 0.5s ease, color 0.5s ease;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .share-btn:hover {
@@ -29,7 +31,6 @@ body {
     color: #30b868;
 }
 
-
 .container {
     max-width: 1360px;
     margin: 16px auto;
@@ -37,26 +38,27 @@ body {
 
 .share-description {
     color: #627382;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 /* Shear style end */
-
-
-
 /* header style  */
-header {
+header,
+main {
     max-width: 1600px;
     margin: auto;
 }
 
-
 /* nav style  */
-
-
 .nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-icon {
+    cursor: pointer;
 }
 
 .header-menu ul li {
@@ -77,10 +79,7 @@ header {
     font-weight: 500;
 }
 
-
 /* nav style end  */
-
-
 
 /* hero style  */
 #header-hero-section {
@@ -104,8 +103,6 @@ header {
     font-weight: bold;
     font-size: 72px;
     text-transform: capitalize;
-
-
 }
 
 .hero-heading span {
@@ -118,7 +115,8 @@ header {
     line-height: 26px;
     margin-bottom: 32px;
 }
-.hero-btn-container{
+
+.hero-btn-container {
     display: flex;
     justify-self: center;
     gap: 16px;
@@ -136,5 +134,52 @@ header {
 
 }
 
-
 /* header style end  */
+
+/* structure style  */
+section#structure{
+    margin-bottom: 120px;
+}
+
+.structure-header-container {
+    text-align: center;
+    margin-top: 115px;
+    color: #001931;
+    margin-bottom: 44px;
+}
+
+.structure-header {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+
+.structure-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.structure-card {
+    max-width: 274px;
+    text-align: center;
+    padding: 70px 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+
+.structure-card img {
+    background: #F95555;
+    padding: 14px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.structure-card .structure-card-header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
