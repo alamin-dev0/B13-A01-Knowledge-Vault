@@ -133,6 +133,7 @@ button.early-access-btn {
     color: #469165;
     cursor: pointer;
     transition: background-color 0.5s ease, color 0.5s ease;
+    margin-bottom: 16px;
 }
 button.early-access-btn:hover {
     background-color: #469165;
@@ -277,8 +278,8 @@ p.think-more-clearly-description-main {
 
 button.get-early-access-button {
     margin-bottom: 16px;
+    filter: drop-shadow(3px 2px 6px gray);
 }
-
 /* think more clearly section end  */
 
 
