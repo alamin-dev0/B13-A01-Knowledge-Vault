@@ -12,6 +12,13 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+header,
+main,
+footer {
+    max-width: 1600px;
+    margin: auto;
+}
+
 .share-btn,
 .works-btn:hover {
     padding: 16px;
@@ -57,17 +64,14 @@ section#think-more-clearly {
 }
 
 
-h1.second-brain-header,.thik-more-clearly-header{
+h1.second-brain-header,
+.thik-more-clearly-header {
     margin-bottom: 16px;
 }
 
 /* Shear style end */
 /* header style  */
-header,
-main {
-    max-width: 1600px;
-    margin: auto;
-}
+
 
 /* nav style  */
 .nav-container {
@@ -101,6 +105,7 @@ main {
 .header-button button {
     padding: 12.5px 16px;
 }
+
 /* nav style end  */
 
 /* hero style  */
@@ -233,23 +238,85 @@ main {
 
 /* thik more clearly section  */
 
-.thik-more-clearly-container{
+.thik-more-clearly-container {
     background: #F7F6F2;
     border-radius: 12px;
 }
-.thik-more-clearly-child-container{
+
+.thik-more-clearly-child-container {
     text-align: center;
     padding: 80px 40px;
 
 }
+
 h2.thik-more-clearly-header {
     font-size: 40px;
 }
-p.thik-more-clearly-description-main{
+
+p.thik-more-clearly-description-main {
     line-height: 24px;
     margin-bottom: 24px;
 }
 
 button.get-early-access-button {
     margin-bottom: 16px;
+}
+
+/* thik more clearly section end  */
+
+
+/* footer social section style  */
+footer {
+    background-color: #001931;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 120px 84px 120px;
+}
+
+.footer-social-container {
+    color: white;
+}
+
+h3.footer-social-header {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+ul.footer-social-icon-ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+ul.footer-social-icon-ul li {
+    list-style: none;
+}
+
+ul.footer-social-icon-ul li {
+    list-style: none;
+}
+
+
+
+ul.footer-social-icon-ul li a {
+    color: #001931;
+    background: white;
+    padding: 3px;
+    border-radius: 50px;
+}
+
+/* footer social style end  */
+
+.footer-copy-right-container{
+    color: #FAFAFA;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer-copy-right-container p{
+    margin: 30px;
 }
