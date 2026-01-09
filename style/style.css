@@ -42,6 +42,13 @@ body {
     line-height: 20px;
 }
 
+.structure-header,.second-brain-header {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+
 /* Shear style end */
 /* header style  */
 header,
@@ -137,7 +144,7 @@ main {
 /* header style end  */
 
 /* structure style  */
-section#structure{
+section#structure {
     margin-bottom: 120px;
 }
 
@@ -148,12 +155,7 @@ section#structure{
     margin-bottom: 44px;
 }
 
-.structure-header {
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 58px;
-    text-transform: capitalize;
-}
+
 
 .structure-card-container {
     display: flex;
@@ -183,3 +185,32 @@ section#structure{
     font-weight: 600;
     margin-bottom: 16px;
 }
+/* structure style end  */
+
+
+/* second brain style  */
+
+.second-brain-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+h1.second-brain-header {
+    margin-bottom: 16px;
+}
+
+.second-brain-description {
+    margin-bottom: 40px;
+}
+.second-brain-ul li{
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+.second-brain-ul li i{
+    color: #30b868;
+}
+
+
+/* secound brain style end  */
